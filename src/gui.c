@@ -5,7 +5,7 @@ void main()
 {
   printf("> ");
   char input = 0;
-  while(input != EOF)
+  while(input != '\n')
     {
       input = getchar();
       printf("%c",input);
